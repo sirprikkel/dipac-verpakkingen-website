@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verpakken — Dipac Verpakkingen</title>
+  <meta name="description" content="Machinaal en handmatig verpakken bij Dipac: kartoneren, sealen, flowpacken, etiketteren, blisteren en meer. Inclusief schone ruimte.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: {
+        colors: { primary: '#0F172A', secondary: '#334155', cta: '#0369A1', bg: '#F8FAFC', text: '#020617' },
+        fontFamily: { heading: ['Lexend','sans-serif'], body: ['Source Sans 3','sans-serif'] }
+      }}
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="https://analytics.code-lieshout.nl/script.js" data-website-id="13fb1909-175b-4aee-b2a1-82c319425772"></script>
+  <style>body{font-family:'Source Sans 3',sans-serif;color:#020617}h1,h2,h3,h4,h5,h6{font-family:'Lexend',sans-serif}</style>
+</head>
+<body class="bg-bg">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-3 cursor-pointer">
+          <img src="images/Dipac.jpg" alt="Dipac logo" class="h-10 rounded">
+          <span class="text-white font-heading font-bold text-lg">Dipac Verpakkingen</span>
+        </a>
+        <div class="hidden md:flex items-center gap-6">
+          <a href="index.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Home</a>
+          <a href="over-dipac.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Over Dipac</a>
+          <a href="productie-verpakkingen.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Productie</a>
+          <a href="verpakken.html" class="text-white transition-colors duration-200 cursor-pointer font-medium">Verpakken</a>
+          <a href="contact.html" class="bg-cta text-white px-5 py-2 rounded-lg font-semibold hover:bg-cta/90 transition-colors duration-200 cursor-pointer">Contact</a>
+        </div>
+        <button id="menu-btn" class="md:hidden text-white cursor-pointer" aria-label="Menu">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-white/10">
+      <div class="px-4 py-3 space-y-2">
+        <a href="index.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Home</a>
+        <a href="over-dipac.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Over Dipac</a>
+        <a href="productie-verpakkingen.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Productie</a>
+        <a href="verpakken.html" class="block text-white py-2 cursor-pointer">Verpakken</a>
+        <a href="contact.html" class="block bg-cta text-white px-4 py-2 rounded-lg text-center font-semibold cursor-pointer">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-24 pb-16 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-white mb-4">Verpakken</h1>
+      <p class="text-white/80 text-lg">Betrouwbare partner voor al uw inpakwerkzaamheden</p>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section class="py-16 bg-bg">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <img src="images/inpakken-web-2.jpg" alt="Verpakken bij Dipac" class="rounded-xl shadow-lg w-full">
+        </div>
+        <div>
+          <p class="text-secondary text-lg mb-4">
+            Uitbesteding van uw offline inpakwerkzaamheden blijkt in de praktijk vaak een goede keuze. Het helpt de vaste kosten te verlagen en het neemt u veel zorgen uit handen.
+          </p>
+          <p class="text-secondary text-lg mb-4">
+            Voor deze werkzaamheden is Dipac Verpakkingen een betrouwbare partner. Meedenken, korte en stipte levertijden, en flexibel inspringen op acties is wat wij u kunnen bieden.
+          </p>
+          <p class="text-secondary text-lg">
+            Wij kunnen meer dan verpakken alleen. Zo maken wij in huis ook uw verkoopverpakking en nemen wij desgewenst een deel van uw logistieke traject onder onze hoede.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Machinaal -->
+  <section class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="font-heading text-3xl font-bold text-primary mb-8 text-center">Machinaal Verpakken</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Kartoneren</h3>
+          <p class="text-secondary">Meerdere lijnen voor zowel langsnaad geplakte dozen als plano dozen.</p>
+        </div>
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Hoeksealen & Krimpen</h3>
+          <p class="text-secondary">Zowel vol- als halfautomatische seallijnen beschikbaar.</p>
+        </div>
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Flowpacken</h3>
+          <p class="text-secondary">Snelle flowpack-verpakking voor diverse producten.</p>
+        </div>
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Etiketteren</h3>
+          <p class="text-secondary">Naast normale etiketten brengen wij ook beveiligingsetiketten aan.</p>
+        </div>
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Cellofaneren & Blisteren</h3>
+          <p class="text-secondary">Unieke automatische kartonnen klapblister machine beschikbaar.</p>
+        </div>
+        <div class="bg-bg rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow duration-200">
+          <div class="w-10 h-10 bg-cta/10 rounded-lg flex items-center justify-center mb-3">
+            <svg class="w-5 h-5 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-lg text-primary mb-2">Coderen</h3>
+          <p class="text-secondary">Injectprinter voor het aanbrengen van codes en houdbaarheidsdatums.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Handverpakken -->
+  <section class="py-16 bg-bg">
+    <div class="max-w-4xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="font-heading text-3xl font-bold text-primary mb-4">Handverpakken</h2>
+          <p class="text-secondary text-lg mb-4">
+            Bij handverpakken bent u niet verbonden aan seriegroottes of speciale afmetingen. Handverpakken gebeurt in alle mogelijke varianten.
+          </p>
+          <ul class="space-y-3">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-cta mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-secondary text-lg">In- en ompakken</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-cta mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-secondary text-lg">Actieverpakkingen en mailingsets</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-cta mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              <span class="text-secondary text-lg">Stickeren</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <img src="images/inpakken-10-04-2015-1.jpg" alt="Handmatig verpakken" class="rounded-xl shadow-lg w-full">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schone ruimte -->
+  <section class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <div class="bg-cta/5 border border-cta/20 rounded-xl p-8">
+        <h2 class="font-heading text-2xl font-bold text-primary mb-4">Schone Ruimte</h2>
+        <p class="text-secondary text-lg max-w-2xl mx-auto">
+          Wij beschikken over een stofvrije hygiënische ruimte voor het verpakken van gevoelige producten. Ideaal voor producten die onder strenge hygiëne-eisen verpakt moeten worden.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-cta">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="font-heading text-3xl font-bold text-white mb-4">Verpakkingswerk uitbesteden?</h2>
+      <p class="text-white/80 text-lg mb-8">Meedenken, korte levertijden en flexibel inspringen op acties — dat is Dipac.</p>
+      <a href="contact.html" class="bg-white text-cta px-8 py-3 rounded-lg font-semibold text-lg hover:bg-white/90 transition-colors duration-200 cursor-pointer shadow-lg">Neem contact op</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary/95 text-white/70 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Dipac Verpakkingen B.V.</h3>
+        <p>Korte Stukken 2, 5371 MN Ravenstein</p>
+        <p class="mt-2">T: <a href="tel:0486464677" class="hover:text-white transition-colors duration-200 cursor-pointer">0486 464677</a></p>
+        <p>E: <a href="mailto:verkoop@dipac.nl" class="hover:text-white transition-colors duration-200 cursor-pointer">verkoop@dipac.nl</a></p>
+      </div>
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Diensten</h3>
+        <ul class="space-y-2">
+          <li><a href="productie-verpakkingen.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Productie</a></li>
+          <li><a href="verpakken.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Verpakken</a></li>
+          <li><a href="over-dipac.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Over Dipac</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Kwaliteit</h3>
+        <div class="flex gap-4">
+          <img src="images/BRC-logo-1.jpg" alt="BRC" class="h-12 rounded bg-white p-1">
+          <img src="images/FSC-1.jpg" alt="FSC" class="h-12 rounded bg-white p-1">
+        </div>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-white/10 text-center text-sm">
+      <p>© 2026 Dipac Verpakkingen B.V. — Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-white transition-colors duration-200 cursor-pointer">Code Lieshout</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('menu-btn').addEventListener('click',()=>{document.getElementById('mobile-menu').classList.toggle('hidden')});</script>
+</body>
+</html>

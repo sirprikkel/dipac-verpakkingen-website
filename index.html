@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dipac Verpakkingen — Uw partner in verpakkingsoplossingen</title>
+  <meta name="description" content="Dipac Verpakkingen B.V. is een offset drukkerij gespecialiseerd in duplex verpakkingen van 200 tot 650 gram. Sinds 1996, BRC & FSC gecertificeerd.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0F172A',
+            secondary: '#334155',
+            cta: '#0369A1',
+            bg: '#F8FAFC',
+            text: '#020617',
+          },
+          fontFamily: {
+            heading: ['Lexend', 'sans-serif'],
+            body: ['Source Sans 3', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="https://analytics.code-lieshout.nl/script.js" data-website-id="13fb1909-175b-4aee-b2a1-82c319425772"></script>
+  <style>
+    body { font-family: 'Source Sans 3', sans-serif; color: #020617; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Lexend', sans-serif; }
+    .badge-hover { transition: all 200ms ease; }
+    .badge-hover:hover { transform: translateY(-2px); box-shadow: 0 10px 15px rgba(0,0,0,0.1); }
+    .stat-reveal { opacity: 0; transform: translateY(20px); transition: all 600ms ease; }
+    .stat-reveal.visible { opacity: 1; transform: translateY(0); }
+    .hero-overlay { background: linear-gradient(135deg, rgba(15,23,42,0.85) 0%, rgba(3,105,161,0.7) 100%); }
+  </style>
+</head>
+<body class="bg-bg">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/" class="flex items-center gap-3 cursor-pointer">
+          <img src="images/Dipac.jpg" alt="Dipac Verpakkingen logo" class="h-10 rounded">
+          <span class="text-white font-heading font-bold text-lg">Dipac Verpakkingen</span>
+        </a>
+        <div class="hidden md:flex items-center gap-6">
+          <a href="index.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Home</a>
+          <a href="over-dipac.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Over Dipac</a>
+          <a href="productie-verpakkingen.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Productie</a>
+          <a href="verpakken.html" class="text-white/90 hover:text-white transition-colors duration-200 cursor-pointer font-medium">Verpakken</a>
+          <a href="contact.html" class="bg-cta text-white px-5 py-2 rounded-lg font-semibold hover:bg-cta/90 transition-colors duration-200 cursor-pointer">Contact</a>
+        </div>
+        <!-- Mobile menu button -->
+        <button id="menu-btn" class="md:hidden text-white cursor-pointer" aria-label="Menu openen">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-primary border-t border-white/10">
+      <div class="px-4 py-3 space-y-2">
+        <a href="index.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Home</a>
+        <a href="over-dipac.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Over Dipac</a>
+        <a href="productie-verpakkingen.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Productie</a>
+        <a href="verpakken.html" class="block text-white/90 hover:text-white py-2 cursor-pointer">Verpakken</a>
+        <a href="contact.html" class="block bg-cta text-white px-4 py-2 rounded-lg text-center font-semibold cursor-pointer">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative min-h-[90vh] flex items-center justify-center pt-16">
+    <div class="absolute inset-0">
+      <img src="images/google_place_1.jpg" alt="Dipac Verpakkingen productiehal" class="w-full h-full object-cover">
+      <div class="hero-overlay absolute inset-0"></div>
+    </div>
+    <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+        Uw complete verpakkingsconcept onder één dak
+      </h1>
+      <p class="text-white/90 text-lg md:text-xl mb-8 max-w-2xl mx-auto">
+        Offset drukkerij gespecialiseerd in duplex verpakkingen van 200 tot 650 gram. Snel, flexibel en gecertificeerd sinds 1996.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html" class="bg-cta text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-cta/90 transition-all duration-200 cursor-pointer shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+          Neem contact op
+        </a>
+        <a href="productie-verpakkingen.html" class="bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all duration-200 cursor-pointer">
+          Onze productie
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="bg-primary py-12">
+    <div class="max-w-6xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div class="stat-reveal">
+        <div class="text-3xl md:text-4xl font-heading font-bold text-cta">1996</div>
+        <div class="text-white/70 mt-1">Opgericht</div>
+      </div>
+      <div class="stat-reveal">
+        <div class="text-3xl md:text-4xl font-heading font-bold text-cta">5</div>
+        <div class="text-white/70 mt-1">Vouw/plak machines</div>
+      </div>
+      <div class="stat-reveal">
+        <div class="text-3xl md:text-4xl font-heading font-bold text-cta">80.000</div>
+        <div class="text-white/70 mt-1">Dozen per uur</div>
+      </div>
+      <div class="stat-reveal">
+        <div class="text-3xl md:text-4xl font-heading font-bold text-cta">BRC & FSC</div>
+        <div class="text-white/70 mt-1">Gecertificeerd</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Diensten -->
+  <section class="py-20 bg-bg">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">Onze Diensten</h2>
+        <p class="text-secondary text-lg max-w-2xl mx-auto">Van ontwerp tot uitlevering — alles onder één dak</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- DTP & Prepress -->
+        <a href="productie-verpakkingen.html#dtp" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">DTP & Prepress</h3>
+          <p class="text-secondary">Verwerking van uw bestanden, PDF goedkeuring en Computer To Plate belichting binnen 5 minuten.</p>
+        </a>
+        <!-- Drukken -->
+        <a href="productie-verpakkingen.html#drukken" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">Offset Drukken</h3>
+          <p class="text-secondary">Heidelberg XL 105 met lakunit, formaat tot 75x105cm, 1-6 kleuren plus UV lak en dispersielak.</p>
+        </a>
+        <!-- Stansen -->
+        <a href="productie-verpakkingen.html#stansen" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.121 14.121L19 19m-7-7l7-7m-7 7l-2.879 2.879M12 12L9.121 9.121m0 5.758a3 3 0 10-4.243 4.243 3 3 0 004.243-4.243z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">Stansen</h3>
+          <p class="text-secondary">4 stansmachines, formaat tot 90x140cm, stansmessen tot op 0.01mm nauwkeurig gelaserd.</p>
+        </a>
+        <!-- Vouwen/Plakken -->
+        <a href="productie-verpakkingen.html#vouwen" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">Vouwen & Plakken</h3>
+          <p class="text-secondary">5 machines met snelheden tot 80.000 dozen per uur, geavanceerde lijmcomputers en controle-apparatuur.</p>
+        </a>
+        <!-- Verpakken -->
+        <a href="verpakken.html" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">Verpakken</h3>
+          <p class="text-secondary">Machinaal en handmatig verpakken, kartoneren, sealen, flowpacken, etiketteren en meer.</p>
+        </a>
+        <!-- CAD/CAM -->
+        <a href="productie-verpakkingen.html#cadcam" class="group bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-200 cursor-pointer hover:-translate-y-1">
+          <div class="w-12 h-12 bg-cta/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-6 h-6 text-cta" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3 class="font-heading font-semibold text-xl text-primary mb-2 group-hover:text-cta transition-colors duration-200">Innovatie & CAD/CAM</h3>
+          <p class="text-secondary">Snij/ril plotter tot 90x130cm voor modellen. Van idee tot tastbaar prototype.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Over Ons -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="images/google_place_2.jpg" alt="Dipac Verpakkingen bedrijfspand" class="rounded-xl shadow-lg w-full">
+      </div>
+      <div>
+        <h2 class="font-heading text-3xl md:text-4xl font-bold text-primary mb-6">Over Dipac Verpakkingen</h2>
+        <p class="text-secondary text-lg mb-4">
+          Dipac Verpakkingen is een energiek en flexibel zelfstandig productiebedrijf dat zich vanaf 1996 bezighoudt met een aantal specifieke activiteiten rondom verpakken en verpakkingen.
+        </p>
+        <p class="text-secondary text-lg mb-6">
+          Wij produceren graag uw bedrukte verpakkingen in zowel kleine als grote oplages, snel en flexibel en met een waarborg van kwaliteit tegen marktconforme prijzen.
+        </p>
+        <div class="flex gap-4">
+          <a href="over-dipac.html" class="bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors duration-200 cursor-pointer">Meer over ons</a>
+          <a href="contact.html" class="border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors duration-200 cursor-pointer">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificeringen -->
+  <section class="py-16 bg-bg">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="font-heading text-3xl font-bold text-primary mb-4">Gecertificeerde Kwaliteit</h2>
+      <p class="text-secondary text-lg mb-10 max-w-2xl mx-auto">Wij voldoen aan de specifieke eisen uit de voedingsmiddelenindustrie en zijn BRCGS en FSC® gecertificeerd.</p>
+      <div class="flex flex-wrap justify-center items-center gap-12">
+        <div class="badge-hover bg-white rounded-xl p-6 shadow-md">
+          <img src="images/BRC-logo-1.jpg" alt="BRC gecertificeerd" class="h-20 mx-auto">
+          <p class="text-secondary mt-3 font-medium">BRCGS High Level</p>
+        </div>
+        <div class="badge-hover bg-white rounded-xl p-6 shadow-md">
+          <img src="images/FSC-1.jpg" alt="FSC gecertificeerd" class="h-20 mx-auto">
+          <p class="text-secondary mt-3 font-medium">FSC® Gecertificeerd</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Productie Gallerij -->
+  <section class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-primary mb-10 text-center">Onze Productie</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <img src="images/slidesv0023web850x850rond0.jpg" alt="Productieproces Dipac" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/slidesv0023web850x850rond1.jpg" alt="Drukkerij Dipac" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/slidesv0023web850x850rond2.jpg" alt="Verpakkingsproductie" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/dtp-web1.jpg" alt="DTP afdeling" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/stans-web-1.jpg" alt="Stansmachine" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/cadcam-web1.jpg" alt="CAD/CAM innovatie" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/inpakken-web-2.jpg" alt="Inpakken" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/zaagje-2-10-04-2015-1.jpg" alt="Afscheurzaagje productie" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+        <img src="images/inpakken-10-04-2015-1.jpg" alt="Verpakkingslijn" class="rounded-lg shadow-md w-full h-48 object-cover cursor-pointer hover:shadow-xl transition-shadow duration-200 lightbox-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 bg-primary">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h2 class="font-heading text-3xl md:text-4xl font-bold text-white mb-4">Klaar voor uw verpakkingsproject?</h2>
+      <p class="text-white/80 text-lg mb-8">Voor uw complete verpakkingsconcept bent u bij Dipac aan het juiste adres.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html" class="bg-cta text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-cta/90 transition-all duration-200 cursor-pointer shadow-lg">
+          Neem contact op
+        </a>
+        <a href="tel:0486464677" class="bg-white/10 text-white border-2 border-white/30 px-8 py-3 rounded-lg font-semibold text-lg hover:bg-white/20 transition-all duration-200 cursor-pointer">
+          Bel 0486 464677
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-primary/95 text-white/70 py-12">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Dipac Verpakkingen B.V.</h3>
+        <p>Korte Stukken 2</p>
+        <p>5371 MN Ravenstein</p>
+        <p class="mt-2">T: <a href="tel:0486464677" class="hover:text-white transition-colors duration-200 cursor-pointer">0486 464677</a></p>
+        <p>E: <a href="mailto:verkoop@dipac.nl" class="hover:text-white transition-colors duration-200 cursor-pointer">verkoop@dipac.nl</a></p>
+        <p class="mt-2">KvK: 17178250</p>
+      </div>
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Diensten</h3>
+        <ul class="space-y-2">
+          <li><a href="productie-verpakkingen.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Productie verpakkingen</a></li>
+          <li><a href="verpakken.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Verpakken</a></li>
+          <li><a href="over-dipac.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Over Dipac</a></li>
+          <li><a href="contact.html" class="hover:text-white transition-colors duration-200 cursor-pointer">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-heading font-bold text-white text-lg mb-4">Kwaliteit</h3>
+        <div class="flex gap-4">
+          <img src="images/BRC-logo-1.jpg" alt="BRC" class="h-12 rounded bg-white p-1">
+          <img src="images/FSC-1.jpg" alt="FSC" class="h-12 rounded bg-white p-1">
+        </div>
+        <p class="mt-4 text-sm">
+          <a href="https://maps.google.com/?q=Dipac+Verpakkingen+Ravenstein" target="_blank" rel="noopener" class="hover:text-white transition-colors duration-200 cursor-pointer">
+            Bekijk op Google Maps →
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-white/10 text-center text-sm">
+      <p>© 2026 Dipac Verpakkingen B.V. — Gebouwd door <a href="https://www.code-lieshout.nl" class="text-cta hover:text-white transition-colors duration-200 cursor-pointer">Code Lieshout</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="fixed inset-0 z-50 bg-black/90 hidden items-center justify-center cursor-pointer" onclick="this.classList.add('hidden');this.classList.remove('flex')">
+    <img id="lightbox-img" src="" alt="" class="max-w-[90vw] max-h-[90vh] rounded-lg shadow-2xl">
+    <button class="absolute top-6 right-6 text-white text-3xl cursor-pointer hover:text-white/70 transition-colors duration-200" aria-label="Sluiten">&times;</button>
+  </div>
+
+  <script>
+    // Mobile menu
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+
+    // Lightbox
+    document.querySelectorAll('.lightbox-img').forEach(img => {
+      img.addEventListener('click', () => {
+        document.getElementById('lightbox-img').src = img.src;
+        document.getElementById('lightbox-img').alt = img.alt;
+        const lb = document.getElementById('lightbox');
+        lb.classList.remove('hidden');
+        lb.classList.add('flex');
+      });
+    });
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        const lb = document.getElementById('lightbox');
+        lb.classList.add('hidden');
+        lb.classList.remove('flex');
+      }
+    });
+
+    // Stat reveal on scroll
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.3 });
+    document.querySelectorAll('.stat-reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
